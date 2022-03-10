@@ -1,11 +1,5 @@
 package latihan;
-
-/**
- *
- * @author Diah Putri Nofianti
- */
 import java.util.Scanner;
-
 public class Pemilihan {
     public static void main(String[] args) {
 		
