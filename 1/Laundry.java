@@ -1,12 +1,5 @@
 package latihan;
-
-/**
- *
- * @author Diah Putri Nofianti
- */
-
 import java.util.Scanner;
-
 public class Laundry {
     public static void main (String[]args) {
 	Scanner input = new Scanner(System.in);
