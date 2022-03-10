@@ -1,1 +1,1 @@
-# just for MK <ASD>
+# just for MK ASD
