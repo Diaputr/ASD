@@ -4,11 +4,6 @@
  * and open the template in the editor.
  */
 package latihan;
-
-/**
- *
- * @author Diah Putri Nofianti
- */
 import java.util.Scanner;
 
 public class Perulangan {
