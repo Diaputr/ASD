@@ -4,11 +4,11 @@ public class Faktorial {
     int nilai;
     
     int faktorialBF(int n){
-        int fakto = 1;
+        int faktor = 1;
         for(int i=1; i<=n; i++){
-            fakto *=i;
+            faktor *=i;
         }
-        return fakto;
+        return faktor;
     }
     
     int faktorialDC(int n){
@@ -16,8 +16,8 @@ public class Faktorial {
             return 1;
         }
         else {
-            int fakto = n * faktorialDC(n-1);
-            return fakto;
+            int faktor = n * faktorialDC(n-1);
+            return faktor;
         }
     }
     
