@@ -9,6 +9,7 @@ public class ArrayRuang {
         Kubus kbs[] = new Kubus[3];
         Tabung tbg[] = new Tabung[3];
         Kerucut krt[] = new Kerucut[3];
+        
         OUTER:
         for (int i = 0; true; i++) {
             double s, r, t;
