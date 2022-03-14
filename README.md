@@ -4,3 +4,4 @@ Semester 2 ^^
 2. Class & Object
 3. Array of Object
 4. Quiz 1
+5. Brute Force & Divide Conquer
