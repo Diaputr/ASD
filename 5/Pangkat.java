@@ -38,7 +38,6 @@ public class Pangkat {
         System.out.print("Masukkan pangkat ke-"+(i+1)+" : ");
         png[i].pangkat = input.nextInt();
     }
-    
     System.out.println("========================================");
     System.out.println("Hasil pangkat dengan Brute Force");
     for(int i=0; i<e; i++){
