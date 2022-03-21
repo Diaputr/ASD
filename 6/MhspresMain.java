@@ -1,8 +1,6 @@
 package minggu6;
-//import java.util.Scanner;
 public class MhspresMain {
-    public static void main(String[] args) {
-    //Scanner input = new Scanner(System.in);    
+    public static void main(String[] args) { 
     Mapres list = new Mapres();
     Mhs m1 = new Mhs("Silvi", 2017, 25, 3);
     Mhs m2 = new Mhs("Erisa", 2012, 19, 4);
