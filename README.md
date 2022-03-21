@@ -5,3 +5,4 @@ Semester 2 ^^
 3. Array of Object
 4. Quiz 1
 5. Brute Force & Divide Conquer
+6. Bubble Sort & Selection Sort
