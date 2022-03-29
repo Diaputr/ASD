@@ -6,3 +6,4 @@ Semester 2 ^^
 4. Quiz 1
 5. Brute Force & Divide Conquer
 6. Bubble Sort, Selection Sort, and Insertion Sort
+7. Sequential & Binary Search
