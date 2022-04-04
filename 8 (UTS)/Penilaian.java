@@ -3,11 +3,11 @@ public class Penilaian {
     String nama;
     int nilaiA, nilaiB, nilaiC, total;
 
-    Penilaian(String nama, int nilaiA, int nilaiB, int nilaiC) {
-        this.nama = nama;
-        this.nilaiA = nilaiA;
-        this.nilaiB = nilaiB;
-        this.nilaiC = nilaiC;
+    Penilaian(String name, int a, int b, int c) {
+        name = nama;
+        nilaiA = a;
+        nilaiB = b;
+        nilaiC = c;
     }
     
     void print(){
