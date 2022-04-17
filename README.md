@@ -8,3 +8,4 @@ Semester 2 ^^
 6. Bubble Sort, Selection Sort, and Insertion Sort
 7. Sequential & Binary Search
 8. UTS
+9. Stack
