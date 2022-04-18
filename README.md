@@ -9,3 +9,4 @@ Semester 2 ^^
 7. Sequential & Binary Search
 8. UTS
 9. Stack
+10. Queue
