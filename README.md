@@ -11,3 +11,4 @@ Semester 2 ^^
 9. Stack
 10. Queue
 11. Single Linked List
+12. Double Linked Lists
