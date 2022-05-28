@@ -46,16 +46,23 @@ public class Queue {
         } else System.out.println("Queue masih kosong!");
     }
     
-    void Enqueue(int dt){
-        if(isFull()) System.out.println("Queue sudah penuh!");
-        else {
-            if(isEmpty()) front = rear = 0;
-            else {
-                if(rear == max-1) rear = 0;
-                else rear++;
+    boolean Enqueue(int dt){
+        if(isFull()){ 
+            System.out.println("Queue sudah penuh!");
+            return true;
+        } else {
+            if(isEmpty()){
+                front = rear = 0;
+            } else {
+                if(rear == max-1){
+                   rear = 0;
+                } else {
+                    rear++;
+                }
             }
             data[rear] = dt;
             size++;
+            return false;
         }
     }
     
@@ -72,5 +79,37 @@ public class Queue {
             }
         }
         return dt;
+    }
+    
+    void peekPosition (int dt){
+        boolean cari = false;
+        if(isEmpty()){
+            System.out.printf("Queue masih kosong!"); cari = true;
+        } else {
+            System.out.printf("Posisi indeks data %d >> ", dt);
+            for(int i = 0; i < max; i++){
+                if(data[i] == dt){
+                    System.out.printf("%d ", i);
+                    cari = true;
+                }
+            }
+        } if(!cari) System.out.printf("tidak ada!");
+        System.out.println();
+    }
+        
+    void peekAt (int pos){
+        if(isEmpty()){
+            System.out.println("Queue masih kosong!");
+        } else {
+            if(pos < max){
+                if(data[pos] != 0){
+                    System.out.println("Indeks "+pos+" berisi data "+data[pos]);
+                } else {
+                    System.out.println("Data kosong!");
+                }
+            } else {
+                System.out.println("Indeks melebihi kapasitas!");
+            }
+        }
     }
 }
