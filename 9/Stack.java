@@ -67,17 +67,6 @@ public class Stack {
         }
     }
     
-    void menu(){
-        System.out.println("== MENU ==");
-        System.out.println("1. Push");
-        System.out.println("2. Pop");
-        System.out.println("3. Peek");
-        System.out.println("4. Print");
-        System.out.println("5. Clear");
-        System.out.println("6. Get Minimal");
-        System.out.println("0. Quit");
-    }
-    
     void getMin(){
         double min = data[top].harga;
         int m = top;
