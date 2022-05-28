@@ -1,6 +1,17 @@
 package minggu9;
 import java.util.Scanner;
 public class StrukMain {
+       
+    static void menu(){
+        System.out.println("== MENU ==");
+        System.out.println("1. Tambah");
+        System.out.println("2. Ambil");
+        System.out.println("3. Cek Isi");
+        System.out.println("4. Struk Teratas");
+        System.out.println("5. Buang");
+        System.out.println("0. Keluar");
+    }
+    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("====================================================");
@@ -9,10 +20,10 @@ public class StrukMain {
         System.out.print("Masukkan kapasitas penyimpanan laci : ");
         int jml = input.nextInt();
         input.nextLine(); System.out.println();
-        StruckStack ss = new StruckStack(jml);
+        StrukStack ss = new StrukStack(jml);
         int menu; char pilih;
         do {
-            ss.menu();
+            menu();
             System.out.print("Pilih : ");
             menu = input.nextInt(); input.nextLine(); System.out.println();
             switch (menu) {
