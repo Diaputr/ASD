@@ -1,6 +1,18 @@
 package minggu9;
 import java.util.Scanner;
 public class StackMain {
+        
+    static void menu(){
+        System.out.println("== MENU ==");
+        System.out.println("1. Push");
+        System.out.println("2. Pop");
+        System.out.println("3. Peek");
+        System.out.println("4. Print");
+        System.out.println("5. Clear");
+        System.out.println("6. Get Minimal");
+        System.out.println("0. Quit");
+    }
+    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("=========================================================");
@@ -12,7 +24,7 @@ public class StackMain {
         Stack stk = new Stack(sv);
         int menu; char pilih;
         do {
-            stk.menu();
+            menu();
             System.out.print("Pilih : ");
             menu = input.nextInt(); input.nextLine(); System.out.println();
             switch (menu) {
