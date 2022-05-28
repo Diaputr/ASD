@@ -1,9 +1,9 @@
 package minggu9;
-public class StruckStack {
+public class StrukStack {
     int size, top;
     StrukBelanja[] data;
 
-    StruckStack(int size) {
+    StrukStack(int size) {
         this.size = size;
         data = new StrukBelanja[size];
         top = -1;
@@ -67,15 +67,5 @@ public class StruckStack {
         } else {
         System.out.println("Laci masih kosong!\n");
         }
-    }
-    
-    void menu(){
-        System.out.println("== MENU ==");
-        System.out.println("1. Tambah");
-        System.out.println("2. Ambil");
-        System.out.println("3. Cek Isi");
-        System.out.println("4. Struk Teratas");
-        System.out.println("5. Buang");
-        System.out.println("0. Keluar");
     }
 }
