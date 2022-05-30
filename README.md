@@ -13,3 +13,4 @@ Semester 2 ^^
 11. Single Linked List
 12. Double Linked Lists
 13. Quiz 2
+14. Binary Tree
