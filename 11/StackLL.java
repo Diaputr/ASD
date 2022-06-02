@@ -29,7 +29,11 @@ public class StackLL{
     
     void peek(){
         StackLLNode tmp = top;
-        System.out.println("TOP Data : "+tmp.data);
+        if(isEmpty()){
+            System.out.println("Stack kosong!\n")
+        } else {
+            System.out.println("TOP Data : "+tmp.data);
+        }
     }
     
     void print(){
