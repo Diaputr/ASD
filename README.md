@@ -15,3 +15,4 @@ Semester 2 ^^
 13. Quiz 2
 14. Binary Tree
 15. Graph
+16. Collection
